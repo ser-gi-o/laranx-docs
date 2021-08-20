@@ -1,6 +1,9 @@
 const { description } = require('../../package')
 
 module.exports = {
+  base: '/docs/',
+  // dest: 'public/docs', //leave default dist as published directory
+
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
