@@ -1,0 +1,19 @@
+{
+  "name": "laranx-docs",
+  "version": "0.0.1",
+  "description": "Installation and usage of LaraNx",
+  "main": "index.js",
+  "authors": {
+    "name": "Sergio",
+    "email": "sergio@yuphub.com"
+  },
+  "repository": "laranx-docs/laranx-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
