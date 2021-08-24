@@ -7,7 +7,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'LaraNx',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -19,7 +19,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'theme-color', content: '#4f46e5' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
@@ -35,32 +35,44 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    displayAllHeaders: true,
+    logo: 'https://laranx.com/favicon/favicon.png',
     nav: [
-      {
-        text: 'Guide',
-        link: '/guide/',
-      },
-      {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
+      { text: 'Getting Started', link: '/', },
+      { text: 'Home', link: 'https://laranx.com' }
     ],
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
-    }
+    sidebar: [
+      {
+        title: 'Getting Started',
+        collapsable: false,
+        children: [
+          '/',
+          '/installation',
+        ]
+      },
+      {
+        title: 'How LaraNx works',
+        collapsable: false,
+        children: [
+          '/theming',
+          '/admin',
+        ]
+      },
+      {
+        title: 'SEO',
+        collapsable: false,
+        children: [
+            'seo'
+        ]
+      },
+      {
+        title: 'Attribution',
+        collapsable: false,
+        children: [
+          'attribution',
+        ]
+      },
+    ]
   },
 
   /**
