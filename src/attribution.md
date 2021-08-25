@@ -1,5 +1,5 @@
 # Attribution
-Thanks to these wonderful companies, projects and resources that make LaraNx possible:
+Thanks to these companies, projects and resources that make LaraNx possible:
 
 ## Resources
 - [Hero Icons](https://heroicons.com/)

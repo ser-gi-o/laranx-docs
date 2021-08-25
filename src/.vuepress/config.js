@@ -59,10 +59,13 @@ module.exports = {
         ]
       },
       {
-        title: 'SEO',
+        title: 'Install Examples',
         collapsable: false,
         children: [
-            'seo'
+            '/kit-installs/',
+            '/kit-installs/breeze',
+            '/kit-installs/inertia',
+            '/kit-installs/livewire'
         ]
       },
       {
