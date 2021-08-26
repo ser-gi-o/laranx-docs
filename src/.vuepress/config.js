@@ -58,6 +58,8 @@ module.exports = {
           '/admin/',
           '/admin/site-search-engine-optimization',
           '/admin/page-search-engine-optimization',
+          '/admin/generate-sitemap',
+          '/admin/theme-settings',
         ]
       },
       {
