@@ -6,8 +6,8 @@ screen and setting up your LaraNx administrator.
 Once the themes have been published, configure your site with the LaraNx Admin. The path to LaraNx Admin is:
 **https://yoursite.com/laranx**
 
-LaraNx uses the standard Laravel middleware 'web' and 'auth'.  Once you've selected your administrator then only that
-user will have access to the LaraNx Admin.
+LaraNx uses the standard Laravel middleware 'web' and 'auth'.  Once you've selected your administrator, 
+the administrator will be the only user with access to the LaraNx Admin.
 
 First, select your administrator:
 

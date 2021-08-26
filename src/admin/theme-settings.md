@@ -9,8 +9,8 @@ Primero-tw includes common pages like about, features, pricing, privacy and term
 Once you've updated the existing themes or created your own. Simply select the theme
 from the drop down menu and click save to change the active theme.
 
-Remember, all page SEO tags will work with the new theme if the pages exists.  If 
-the new theme has more pages go the the Pages page and create tags for the new pages.
+Remember, all page SEO tags will work with their corresponding pages in the active theme.  If 
+the new theme has more pages go Pages and create tags for the new pages.
 
 If your previous theme had pages that do not exist in the active theme.  Those tags 
 will simply be ignored.  They may be removed or left for future use.

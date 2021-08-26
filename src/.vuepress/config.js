@@ -54,12 +54,12 @@ module.exports = {
         title: 'How LaraNx works',
         collapsable: false,
         children: [
-          '/theming',
           '/admin/',
           '/admin/site-search-engine-optimization',
           '/admin/page-search-engine-optimization',
           '/admin/generate-sitemap',
           '/admin/theme-settings',
+          '/theming',
         ]
       },
       {
