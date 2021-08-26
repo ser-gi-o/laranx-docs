@@ -55,17 +55,19 @@ module.exports = {
         collapsable: false,
         children: [
           '/theming',
-          '/admin',
+          '/admin/',
+          '/admin/site-search-engine-optimization',
+          '/admin/page-search-engine-optimization',
         ]
       },
       {
         title: 'Install Examples',
         collapsable: false,
         children: [
-            '/kit-installs/',
-            '/kit-installs/breeze',
-            '/kit-installs/inertia',
-            '/kit-installs/livewire'
+          '/kit-installs/',
+          '/kit-installs/breeze',
+          '/kit-installs/inertia',
+          '/kit-installs/livewire'
         ]
       },
       {
