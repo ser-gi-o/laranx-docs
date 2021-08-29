@@ -88,5 +88,9 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    '@vuepress/google-analytics',
+    {
+      'ga': 'G-Q2NBPERYMB' // UA-00000000-0
+    }
   ]
 }
