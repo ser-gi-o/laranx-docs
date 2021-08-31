@@ -51,3 +51,17 @@ I've included a share directory in case you would like to share files across the
                         |-terms.blade.php
 ```
 
+## Routing
+Each theme has it's own routing.  This is significant because it allows each theme to be independent 
+of other parts of the Laravel application.  Each theme is responsible for routing the files in its primary
+directory.
+
+The filename must match the routing name.  The following example is from the primero-tw theme included with LaraNx. 
+Notice that each slug matches the filenames listed in the primero-tw theme directory.
+```php
+use Srg\Laranx\Http\Controllers\RenderController;
+
+Route::get('{slug?}', [RenderController::class, 'page'])
+    ->where('slug', '""|privacy|terms|features|about|pricing')
+    ->name('page');
+```
