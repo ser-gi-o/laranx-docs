@@ -7,7 +7,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'LaraNx',
+  title: 'LaraNx Documentation',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -23,9 +23,16 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['link', { rel: 'icon', href: 'https://laranx.com/favicon/favicon.png' }],
+    //['meta', { property: 'og:title', content: 'LaraNx Documentation Main' }],  //duplicates if exists in page. page is responsible
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'LaraNx Documentation - Laravel SEO and Theme Management' }],
     ['meta', { property: 'og:image', content: 'https://laranx.com/docs/LaraNx-documentation-cover.png' }],
+    ['meta', { property: 'og:image:width', content: '1400' }],
+    ['meta', { property: 'og:image:height', content: '727' }],
+    ['meta', { property: 'twitter:card', content: 'summary_large_image' }],
+    //['meta', { property: 'twitter:title', content: 'LaraNx Documentation' }], //page is responsible
+    //['meta', { property: 'twitter:description', content: 'LaraNx Documentation - Laravel SEO and Theme Management' }],
+    ['meta', { property: 'twitter:image', content: 'https://laranx.com/docs/LaraNx-documentation-cover.png' }],
   ],
 
   /**
