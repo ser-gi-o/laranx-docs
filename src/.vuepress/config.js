@@ -11,7 +11,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: description,
+  description: 'SEO and Theme Management for Laravel',
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -21,7 +21,11 @@ module.exports = {
   head: [
     ['meta', { name: 'theme-color', content: '#4f46e5' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['link', { rel: 'icon', href: 'https://laranx.com/favicon/favicon.png' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:site_name', content: 'LaraNx Documentation - Laravel SEO and Theme Management' }],
+    ['meta', { property: 'og:image', content: 'https://laranx.com/docs/LaraNx-documentation-cover.png' }],
   ],
 
   /**

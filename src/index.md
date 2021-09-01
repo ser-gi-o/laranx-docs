@@ -1,3 +1,13 @@
+---
+metaTitle: LaraNx Documentation
+
+meta:
+  - name: description
+    content: LaraNx is the SEO and theme management package for Laravel. Manage page SEO and themes with a click of a button.
+  - name: og:image
+    content: LaraNx
+---
+
 # Introduction
 
 LaraNx is a PHP package that adds SEO and theming features to your Laravel application.
